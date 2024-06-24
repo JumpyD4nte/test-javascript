@@ -2,7 +2,9 @@
 //** first solution */
 
 const { scandirSync } = require("@nodelib/fs.scandir");
+const { default: AsyncReader } = require("@nodelib/fs.walk/out/readers/async");
 const { log } = require("console");
+const { setServers } = require("dns");
 const { DefaultDeserializer } = require("v8");
 
 // function findSpace(str) {
@@ -225,7 +227,8 @@ const { DefaultDeserializer } = require("v8");
 // console.log(checkCase('HELLO WORLD'));
 // console.log(checkCase('hello world'));
 
-let add = (x, y) => {
-    return x + y
+
+
+let sub = (x, y) => {
+    return x - y
 }
-console.log(add(10, 2));
