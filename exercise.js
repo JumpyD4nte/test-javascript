@@ -224,3 +224,8 @@ const { DefaultDeserializer } = require("v8");
 // console.log(checkCase('Hello World'));
 // console.log(checkCase('HELLO WORLD'));
 // console.log(checkCase('hello world'));
+
+let add = (x, y) => {
+    return x + y
+}
+console.log(add(10, 2));
