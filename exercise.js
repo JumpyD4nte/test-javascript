@@ -1,11 +1,11 @@
+
+// const { scandirSync } = require("@nodelib/fs.scandir");
+// const { default: AsyncReader } = require("@nodelib/fs.walk/out/readers/async");
+// const { log } = require("console");
+// const { setServers } = require("dns");
+// const { DefaultDeserializer } = require("v8");
 //!! find space
 //** first solution */
-
-const { scandirSync } = require("@nodelib/fs.scandir");
-const { default: AsyncReader } = require("@nodelib/fs.walk/out/readers/async");
-const { log } = require("console");
-const { setServers } = require("dns");
-const { DefaultDeserializer } = require("v8");
 
 // function findSpace(str) {
 //     let count = 0;
