@@ -229,6 +229,37 @@ const { DefaultDeserializer } = require("v8");
 
 
 
-let sub = (x, y) => {
-    return x - y
-}
+// let sub = (x, y) => {
+//     return x - y
+// }
+
+
+//!! function clock pin degree
+// function clockPinDegreeCalculator(time) {
+//     let splitTime = time.split(":");
+//     let hour = splitTime[0];
+//     let minute = splitTime[1];
+
+//     let degreeInFiveMinute = 30;
+//     let degreeInAMinute = 6;
+//     // let degreeInAnHour = 360 / 12;
+//     let degreeOfShortPinInMinute = 0.5;
+
+//     console.log(hour, minute);
+
+//     let longPinDegree = degreeInAMinute * minute;
+//     let shortPinDegree = (degreeInFiveMinute * hour) + (minute * degreeOfShortPinInMinute);
+
+//     console.log(longPinDegree, 'longPinDegree');
+//     console.log(shortPinDegree, 'shortPinDegree');
+
+//     let degree = Math.abs(longPinDegree - shortPinDegree);
+//     if (360 - degree < degree) {
+//         return 360 - degree;
+//     }
+//     return degree;
+// }
+// console.log(clockPinDegreeCalculator("09:00"));
+// console.log(clockPinDegreeCalculator("00:00"));
+// clockPinDegreeCalculator("09:00");
+
